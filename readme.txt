@@ -1,2 +1,4 @@
+- This application consumes public API and the output of this application is API 
+- This application include unit testing with NUnit
 - This project is build using .Net6 with Visual Studio 2022
 - .sln file location is in folder "ConsumeAPIExample"
