@@ -1,0 +1,165 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Learning\\VoxTechnicalTest\\ConsumeAPIExample.UnitTest\\ConsumeAPIExample.UnitTest.csproj": {}
+  },
+  "projects": {
+    "D:\\Learning\\VoxTechnicalTest\\ConsumeAPIExample.UnitTest\\ConsumeAPIExample.UnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Learning\\VoxTechnicalTest\\ConsumeAPIExample.UnitTest\\ConsumeAPIExample.UnitTest.csproj",
+        "projectName": "ConsumeAPIExample.UnitTest",
+        "projectPath": "D:\\Learning\\VoxTechnicalTest\\ConsumeAPIExample.UnitTest\\ConsumeAPIExample.UnitTest.csproj",
+        "packagesPath": "C:\\Users\\aghnat.atqiya\\.nuget\\packages\\",
+        "outputPath": "D:\\Learning\\VoxTechnicalTest\\ConsumeAPIExample.UnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aghnat.atqiya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://cloudvantinuget-163616412365.d.codeartifact.ap-southeast-1.amazonaws.com/nuget/base/v3/index.json": {},
+          "https://nuget.xtremax.com/nuget/": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Learning\\VoxTechnicalTest\\ConsumeAPIExample\\ConsumeAPIExample.csproj": {
+                "projectPath": "D:\\Learning\\VoxTechnicalTest\\ConsumeAPIExample\\ConsumeAPIExample.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Learning\\VoxTechnicalTest\\ConsumeAPIExample\\ConsumeAPIExample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Learning\\VoxTechnicalTest\\ConsumeAPIExample\\ConsumeAPIExample.csproj",
+        "projectName": "ConsumeAPIExample",
+        "projectPath": "D:\\Learning\\VoxTechnicalTest\\ConsumeAPIExample\\ConsumeAPIExample.csproj",
+        "packagesPath": "C:\\Users\\aghnat.atqiya\\.nuget\\packages\\",
+        "outputPath": "D:\\Learning\\VoxTechnicalTest\\ConsumeAPIExample\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aghnat.atqiya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://cloudvantinuget-163616412365.d.codeartifact.ap-southeast-1.amazonaws.com/nuget/base/v3/index.json": {},
+          "https://nuget.xtremax.com/nuget/": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

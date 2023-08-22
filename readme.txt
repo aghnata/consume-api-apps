@@ -1,0 +1,2 @@
+- This project is build using .Net6 with Visual Studio 2022
+- .sln file location is in folder "ConsumeAPIExample"
